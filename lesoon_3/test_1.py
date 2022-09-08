@@ -1,3 +1,3 @@
-import task_1, sumx
+import task_1
 
-print(task_1.sumx(4,5) * 2)
+print(task_1.sumx(4, 5) * 2)
