@@ -1,3 +1,4 @@
-def sumx(a, b):
-    return a + b
-
+a = [2, 3, 3, 4, 5, 6, 7, 8, 98, 2, 4, 5]
+b = a[::-1]
+print(a)
+print(b)
