@@ -1,4 +1,20 @@
-a = [2, 3, 3, 4, 5, 6, 7, 8, 98, 2, 4, 5]
-b = a[::-1]
-print(a)
-print(b)
+import random
+b = int(input('b = '))
+i = 0
+result = []
+while i < b:
+    a = random.randint(0, 10)
+    i += 1
+    result.append(a)
+print(result)
+
+b = result[::-1]
+result_2 = []
+i = 0
+while i < len(result):
+    c = result[i] * b[i]
+    result_2.append(c)
+    result.pop()
+    b.pop()
+    i += 1
+print(result_2)
